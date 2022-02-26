@@ -1,0 +1,40 @@
+#avatar {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%; 
+}
+
+#name{
+  display: inline-block;
+}
+
+#profilepic{
+  text-align: right;
+}
+
+#profilecard{
+  text-align: left;
+  margin: auto;
+}
+
+.flags{
+  border-radius: 3px;
+  height:20px;
+  opacity: 0.7;
+}
+
+.explogo{
+  text-align: right;
+}
+
+.expdesc{
+  text-align: left;
+  margin:auto;
+}
+
+.logopic{
+  width: 120px;
+}
