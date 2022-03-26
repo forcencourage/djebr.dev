@@ -11,9 +11,18 @@
   display: inline-block;
 }
 
-#profilepic{
-  text-align: right;
+@media screen and (min-width: 575px) {
+  #profilepic{
+    text-align: right;
+  }
 }
+@media screen and (max-width: 575px) {
+  #profilepic{
+    text-align: left;
+    padding-bottom: 1em;
+  }
+}
+
 
 #profilecard{
   text-align: left;
@@ -26,9 +35,19 @@
   opacity: 0.7;
 }
 
-.explogo{
-  text-align: right;
+@media screen and (min-width: 575px) {
+  .explogo{
+    text-align: right;
+  }
 }
+@media screen and (max-width: 575px) {
+  .explogo{
+    text-align: left;
+    padding-bottom: 2em;
+  }
+}
+
+
 
 .expdesc{
   text-align: left;
