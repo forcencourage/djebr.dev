@@ -1,10 +1,10 @@
 #avatar {
   width: 200px;
-  height: 200px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%; 
+  border: 12px solid black;
 }
 
 #name{
